@@ -7,7 +7,7 @@ title = Chat con Connor
 package.name = ChatConnor
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.kulothungan
+package.domain = org.test
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -46,10 +46,10 @@ requirements = python3,kivy
 #garden_requirements =
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/assets/images/logo_p.png
+# presplash.filename = %(source.dir)s/assets/images/logo_p.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/assets/images/logo_p.png
+# icon.filename = %(source.dir)s/assets/images/logo_p.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -74,6 +74,21 @@ android.presplash_color = #ffffff
 
 # (list) Permissions
 android.permissions = INTERNET
+
+android.archs = arm64-v8a, armeabi-v7a
+
+ios.kivy_ios_url = https://github.com/kivy/kivy-ios
+ios.kivy_ios_branch = master
+
+# Another platform dependency: ios-deploy
+# Uncomment to use a custom checkout
+#ios.ios_deploy_dir = ../ios_deploy
+# Or specify URL and branch
+ios.ios_deploy_url = https://github.com/phonegap/ios-deploy
+ios.ios_deploy_branch = 1.10.0
+
+# (bool) Whether or not to sign the code
+ios.codesign.allowed = false
 
 # (int) Target Android API, should be as high as possible.
 #android.api = 27
