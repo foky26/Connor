@@ -1,0 +1,3 @@
+title=<Chat con Connor>
+author=<Clemente>
+orientation=<portrait>

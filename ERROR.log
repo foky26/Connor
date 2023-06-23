@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "C:\Users\petete\PycharmProjects\pythonProject1\main.py", line 6, in <module>
+    PurpApp().run()
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\uix\scrollview.py", line 1243, in _do_touch_up
+    super(ScrollView, self).on_touch_up(touch)
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\uix\widget.py", line 611, in on_touch_up
+    if child.dispatch('on_touch_up', touch):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\uix\widget.py", line 611, in on_touch_up
+    if child.dispatch('on_touch_up', touch):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\petete\PycharmProjects\pythonProject1\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\petete\PycharmProjects\pythonProject1\libs\uix\baseclass\home_screen.py", line 38, in <lambda>
+    }: self.goto_chat_screen(x),
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\petete\PycharmProjects\pythonProject1\libs\uix\baseclass\home_screen.py", line 44, in goto_chat_screen
+    self.manager.set_current("chat")
+  File "C:\Users\petete\PycharmProjects\pythonProject1\libs\uix\root.py", line 23, in set_current
+    screen_object = eval(screen["object"])
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "C:\Users\petete\PycharmProjects\pythonProject1\libs\uix\baseclass\chat_screen.py", line 36, in __init__
+    self.premadeVoice = user.get_voices_by_name("Connor")[0]
+                        ^^^^
+NameError: name 'user' is not defined
