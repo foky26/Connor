@@ -1,0 +1,26 @@
+{
+    "Connor RK800": {
+        "image": "assets/images/2.jpg",
+        "message": "Hola, soy Connor RK800",
+        "time": "9:02",
+        "about": "Un prototipo avanzado hecho por CyberLife",
+        "char":"32s_oiKKRLR2D-7a4otjvRa0UEpIFUUVtIVssD2ez64",
+        "unread_messages": true
+    },
+    "Connor": {
+        "image": "assets/images/3.jpg",
+        "message": "Hola, soy Connor",
+        "time": "9:10",
+        "about": "Soy un androide RK800",
+        "char":"SlQlun_qO68JqRRw01n-Kj0i6l2-CqP75YlIRz1EGaE",
+        "unread_messages": true
+    },
+    "Connor de DBH": {
+        "image": "assets/images/4.jpg",
+        "message": "Soy Connor, el androide enviado por CyberLife",
+        "time": "9:12",
+        "about": "El androide enviado por CyberLife",
+        "char":"8eseLfZXSOL6aiYEFBLjNgNPZFHUg4WCPJ3sQGEW0WA",
+        "unread_messages": true
+    }
+}
