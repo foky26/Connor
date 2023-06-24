@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0,https://github.com/kramcat/CharacterAI/archive/refs/heads/main.zip,https://github.com/lugia19/elevenlabslib/archive/refs/heads/master.zip
+requirements = python3,kivy==2.0.0,characterai,elevenlabslib,json,datetime,os,sys,threading,io,requests,re,traceback
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
