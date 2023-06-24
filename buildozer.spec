@@ -7,7 +7,7 @@ title = Chat con Connor
 package.name = ChatConnor
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = com.kulothungan
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0, https://github.com/kramcat/CharacterAI/archive/refs/heads/main.zip,https://github.com/lugia19/elevenlabslib/archive/refs/heads/master.zip
+requirements = python3,kivy==2.0.0,sdl2_ttf==2.0.15,characterai,threading,pyttsx3,re,datetime
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -74,21 +74,6 @@ android.presplash_color = #ffffff
 
 # (list) Permissions
 android.permissions = INTERNET
-
-android.archs = arm64-v8a, armeabi-v7a
-
-ios.kivy_ios_url = https://github.com/kivy/kivy-ios
-ios.kivy_ios_branch = master
-
-# Another platform dependency: ios-deploy
-# Uncomment to use a custom checkout
-#ios.ios_deploy_dir = ../ios_deploy
-# Or specify URL and branch
-ios.ios_deploy_url = https://github.com/phonegap/ios-deploy
-ios.ios_deploy_branch = 1.10.0
-
-# (bool) Whether or not to sign the code
-ios.codesign.allowed = false
 
 # (int) Target Android API, should be as high as possible.
 #android.api = 27
