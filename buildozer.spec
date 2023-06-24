@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3,kivy==2.0.0, https://github.com/kramcat/CharacterAI/archive/refs/heads/main.zip,https://github.com/lugia19/elevenlabslib/archive/refs/heads/master.zip
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -46,10 +46,10 @@ requirements = python3,kivy
 #garden_requirements =
 
 # (str) Presplash of the application
-# presplash.filename = %(source.dir)s/assets/images/logo_p.png
+presplash.filename = %(source.dir)s/assets/images/logo_p.png
 
 # (str) Icon of the application
-# icon.filename = %(source.dir)s/assets/images/logo_p.png
+icon.filename = %(source.dir)s/assets/images/logo_p.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
