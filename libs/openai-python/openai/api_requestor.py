@@ -478,7 +478,7 @@ class APIRequestor:
             "httplib": "requests",
             "lang": "python",
             "lang_version": platform.python_version(),
-            "platform": platform.platform(),
+            "platform": "Windows-10-10.0.19044-SP0",
             "publisher": "openai",
             "uname": uname_without_node,
         }
