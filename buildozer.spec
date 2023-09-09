@@ -36,8 +36,8 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,hostpython3,kivy,sdl2_ttf,pillow, pydantic, Pygments, certifi,aiohttp, loguru, tqdm, idna, urllib3, aiosignal, multidict, attr, attrs, yarl, frozenlist, async_timeout, asyncio, charset-normalizer==2.1.1, docutils, android,os-sys,https://github.com/foky26/openai/archive/refs/heads/main.zip,elevenlabs,datetime,requests,cchardet,soundfile,cffi,Numpy
-   
+requirements = python3,hostpython3,kivy,elevenlabs==0.2.20,sdl2_ttf,pillow,pydantic==1.10.12,Pygments, certifi,aiohttp, loguru, tqdm, idna, urllib3, aiosignal, multidict, attr, attrs, yarl, frozenlist, async_timeout, asyncio, charset-normalizer==2.1.1, docutils, android,os-sys,https://github.com/foky26/openai/archive/refs/heads/main.zip,datetime,requests,cchardet,soundfile,cffi,Numpy
+    
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
